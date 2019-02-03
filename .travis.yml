@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+ - 2.6
+
+install:
+- gem install bundler
+- bundle install
+
+script:
+- make build
