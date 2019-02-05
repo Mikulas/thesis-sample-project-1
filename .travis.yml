@@ -8,3 +8,4 @@ install:
 
 script:
 - make build
+- echo "Deploy step would be here"
